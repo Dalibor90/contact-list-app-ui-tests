@@ -3,7 +3,7 @@ Contact List Application UI Tests with JAVA Selenium WebDriver
 
 This project automates UI tests for the Contact List application using Selenium WebDriver and TestNG.
 
-Prerequisites
+**Prerequisites**
 
 Ensure you have the following installed before running the tests:
 
@@ -17,25 +17,25 @@ Maven
 
 TestNG (added as a dependency in the pom.xml if using Maven)
 
-Setup Instructions
+**Setup Instructions**
 
-Clone this repository:
+1. Clone this repository:
 
 git clone https://github.com/your-username/contact-list-ui-tests.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 cd contact-list-ui-tests
 
-Update the chromedriver path in setUp() method of ContactListUITests.java if needed.
+3. Update the chromedriver path in setUp() method of ContactListUITests.java if needed.
 
-Install dependencies (if using Maven):
+4. Install dependencies (if using Maven):
 
 mvn clean install
 
-Running the Tests
+**Running the Tests**
 
-Using Maven (Command Line)
+_Using Maven (Command Line)_
 
 Run the tests using Maven:
 
@@ -45,7 +45,7 @@ Alternatively, if using TestNG, run tests from the testng.xml file:
 
 mvn test -DsuiteXmlFile=testng.xml
 
-Using Eclipse
+_Using Eclipse_
 
 Import the Project into Eclipse
 
@@ -61,7 +61,7 @@ Search for "TestNG" and install it.
 
 Restart Eclipse if necessary.
 
-Run the Tests in Eclipse
+_Run the Tests in Eclipse_
 
 Open ContactListUITests.java.
 
@@ -69,22 +69,22 @@ Right-click anywhere in the file.
 
 Select Run As → TestNG Test.
 
-Test Scenarios Covered
+**Test Scenarios Covered**
 
-UI Tests:
+_UI Tests:_
 
 Login Test: Verifies login functionality with valid credentials.
 
 Add Contact Test: Ensures a new contact can be added successfully.
 
-Reporting
+**Reporting**
 
 After execution, TestNG reports will be available in the target/surefire-reports directory.
 
-Contributing
+**Contributing**
 
 Feel free to fork this repository and submit pull requests for improvements or additional test cases.
 
-License
+**License**
 
 This project is open-source and available under the MIT License.
